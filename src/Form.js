@@ -22,6 +22,7 @@ const Form = () => {
   return (
     <div className="form-container">
       <form onSubmit={handleSubmit}>
+        {/* <h2>Full Name Display</h2> */}
         <label htmlFor="first-name">First Name</label>
         <input
           type="text"
